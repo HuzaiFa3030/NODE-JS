@@ -1,15 +1,15 @@
 const dbconfig = {
-  HOST: "localhost",
-  server: "MHN-019",
-  user: "sa",
-  password: "deenv",
-  database: "TestAPI",
+  HOST: "",
+  server: "",
+  user: "",
+  password: "",
+  database: "",
   port: 1433,
   dialect: "mssql",
   options: {
     trustedconnection: true,
     enableArithAbort: true,
-    instancename: "MHN-019",
+    instancename: "",
     encrypt: false,
   },
 };
